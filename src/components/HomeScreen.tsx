@@ -143,6 +143,13 @@ export function HomeScreen({ onNavigate, userName = 'Guest' }: HomeScreenProps) 
             <span>Profile</span>
           </button>
         </div>
+{/* Developer Credit */}
+        <div className="w-full py-6 mt-8 border-t border-gray-200 dark:border-gray-800">
+  <p className="text-center text-sm text-gray-600 dark:text-gray-400">
+    Designed and Developed By{' '}
+    <span className="font-semibold text-primary">Raisul Maharub</span>
+  </p>
+</div>
       </div>
     </div>
   );
